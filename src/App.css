@@ -1,0 +1,58 @@
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+.input-text {
+  width: 97.8%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.button {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+
+}
+
+.button:hover {
+  background-color: #00f7f7;
+}
+
+.unique-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.unique-table th,
+.unique-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.unique-table th {
+  background-color: #eee;
+}
+
+.unique-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.unique-table tr:hover {
+  background-color: #fff7f7;
+}
+
+.unique-table th,
+.unique-table td:first-child {
+  text-align: left;
+}
+
+.unique-table td:last-child {
+  text-align: right;
+}
